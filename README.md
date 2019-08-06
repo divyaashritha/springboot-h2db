@@ -30,11 +30,7 @@ View Swagger UI at http://localhost:8080/swagger-ui.html
 Uses a H2 in memory database.
 
 
-### Routing Groups
-
-[eaf\_routing\_groups\_service](https://github.cerner.com/HealtheLife/eaf_routing_groups_service)
-
-A _Routing Group_ defines a mapping of paths to resources based on user access groups. A resource is determined by its unique identifier and type. For example, a path of "/schedule" could be mapped to a _Page_ for scheduling by indicating a resource type of "page" and using the _Page's_ unique identifier from the EAF Page API. A routing group may contain the same path which maps to difference resources based on access group. For example, a path of "/" could be mapped to different _Pages_ for both "patient" and "member" access groups.
+### CRUD end points
 
 |Endpoint                                   | HTTP   | Action     | Description                            
 |-------------------------------------------|--------|------------|-------------------------------------|
